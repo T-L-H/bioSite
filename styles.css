@@ -2,9 +2,16 @@ body {
   font-family: Arial, sans-serif;
   margin: 20px;
   text-align: center;
+  background-color: #5462E0;
 }
 
-
+p {
+  font-family: Impact, sans-serif;
+  color: #36342A;
+  background-color: #8B8262;
+  display: inline-block;
+  padding: 5px 10px;
+}
 
 .portrait, .bio-image, .section-image, .dameInfoText {
   width: 250px;
@@ -38,24 +45,24 @@ body {
   color: blue;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin: 40px;
-}
 
-h1 {
-  font-size: 2em;
-  margin-bottom: 40px;
+h1, h2, h3 {
+  font-family: "Trebuchet MS", sans-serif;
+  color: #E0C153;
 }
-
 .section {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 60px;
 }
-
+a, button {
+  border-radius: 8px;
+  background-color: #E0C153;
+  color: #5462E0;
+  padding: 8px 16px;
+  text-decoration: none;
+}
 
 
 .reverse {
